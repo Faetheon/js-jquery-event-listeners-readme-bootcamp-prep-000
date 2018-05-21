@@ -1,4 +1,6 @@
-//define functions here
+function getIt(selector) {
+  document.getElementBy
+}
 
 $(document).ready(function(){
 
