@@ -3,8 +3,8 @@ function getIt() {
 }
 
 function frameIt() {
-  $('.tasty').on('load', function() { 
-    $('.tasty').css({borderColor: "red", borderWidth: "5px solid"});
+  $('img').on('load', function() { 
+    $('img').addClass('tasty');
   })
 }
 
