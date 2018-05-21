@@ -12,6 +12,14 @@ function submitIt() {
   $('form').submit(alert("Your form is going to be submitted now."));
 }
 
+function pressIt() {
+  $('input').on('keydown', function() {
+    if(e === 71) {
+      alert("You clicked G");
+    }
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
