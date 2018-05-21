@@ -1,5 +1,5 @@
-function getIt(selector) {
-  document.getElementBy
+function getIt() {
+  $('p').click(alert('Hey!'));
 }
 
 $(document).ready(function(){
