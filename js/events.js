@@ -5,7 +5,7 @@ function getIt() {
 function frameIt() {
   $('img').on('load', function() { 
     $('img').addClass('tasty');
-  })
+  });
 }
 
 function submitIt() {
@@ -17,7 +17,7 @@ function pressIt() {
     if(e === 71) {
       alert("You clicked G");
     }
-  })
+  });
 }
 
 $(document).ready(function(){
