@@ -14,7 +14,7 @@ function submitIt() {
 
 function pressIt() {
   $('input').on('keydown', () => {
-    if(e === 71) {
+    if(71 === 71) {
       alert("You clicked G");
     }
   });
