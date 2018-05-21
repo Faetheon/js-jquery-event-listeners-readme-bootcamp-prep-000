@@ -13,7 +13,7 @@ function submitIt() {
 }
 
 function pressIt() {
-  $('input').on('keydown', function() {
+  $('input').on('keydown', (e) => {
     if(e === 71) {
       alert("You clicked G");
     }
